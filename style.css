@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+    transform: translateY(200px);
+}
+.content{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+
+}
+.text{
+    width: 55%;
+    margin-left: 50px;
+}
+.text h1{
+    color: blue;
+    font-size: 80px;
+    padding-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text p{
+    font-size: 27px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}  
+.dio{
+ 
+   padding-top: 20px;
+   text-align: center;
+}
+.dio span{
+    color: #000;
+    font-size: small;
+    
+}
+.window{
+    width: 33%;
+    transform: translateY(-60px);
+   
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px  rgb(235, 235, 235);
+
+}   
+.sign input{
+    margin-bottom: 15px;
+    padding: 17px;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 0.5px;
+    border-color: #eee4e4;
+   
+}
+.sign .button{
+    /* padding-bottom:6px; */
+   background-color: blue;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   
+}
+.sign .btn{
+      background-color: rgb(23, 195, 23);
+      /* padding-top: 10px; */
+      color: #fff;
+      font-weight: 600;
+      width: 65%;
+      border-radius: 5px;
+      text-align: center;
+      margin: 25px 50px;
+      /* margin: auto; */
+}
+a{
+    text-decoration: none;
+    padding: 17px;
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+}
